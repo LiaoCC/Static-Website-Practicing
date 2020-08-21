@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<style type="text/css">
+body {
+	background-image: url(../images/0402.jpg);
+}
+</style>
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  if(document.getElementById('RadioGroup1_0').checked)
+  msg = msg+"●真皮皮包：購買\r"
+  if(document.getElementById('RadioGroup1_1').checked)
+    msg = msg+"●真皮皮包：不購買\r"
+  if(document.getElementById('RadioGroup1_2').checked)
+    msg = msg+"●真皮皮包：考慮中\r"
+  if(document.getElementById('RadioGroup2_0').checked)
+  	msg = msg+"●真皮皮夾：購買"
+  if(document.getElementById('RadioGroup2_1').checked)
+    msg = msg+"●真皮皮夾：不購買"
+  if(document.getElementById('RadioGroup2_2').checked)
+    msg = msg+"●真皮皮夾：考慮中"
+    
+  confirm(msg);
+  
+}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+</script>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <div align="center">
+    <table border="1">
+      <tr>
+        <td width="400" height="100" align="center" valign="middle" bgcolor="#FFFF99">真皮皮包</td>
+        <td width="400" height="100" align="center" valign="middle" bgcolor="#FFFF99">真皮皮夾</td>
+      </tr>
+      <tr>
+        <td width="400" height="150" align="center" valign="middle" bgcolor="#FFFF99"><img src="../images/0403.jpg" width="250" height="150" /></td>
+        <td width="400" height="150" align="center" valign="middle" bgcolor="#FFFF99"><img src="../images/0404.jpg" width="216" height="150" /></td>
+      </tr>
+      <tr>
+        <td width="400" height="100" align="center" valign="middle" bgcolor="#FFFF99"><p>
+          <label>
+            <input name="RadioGroup1" type="radio" id="RadioGroup1_0" value="選項按鈕" checked="checked" />
+            購買</label>
+          <label>
+            <input type="radio" name="RadioGroup1" value="選項按鈕" id="RadioGroup1_1" />
+            不購買</label>
+          <label>
+            <input type="radio" name="RadioGroup1" value="選項按鈕" id="RadioGroup1_2" />
+            考慮中</label>
+          <br />
+        </p></td>
+        <td width="400" height="100" align="center" valign="middle" bgcolor="#FFFF99"><p>
+          <label>
+            <input name="RadioGroup2" type="radio" id="RadioGroup2_0" value="選項按鈕" />
+            購買</label>
+          <label>
+            <input type="radio" name="RadioGroup2" value="選項按鈕" id="RadioGroup2_1" />
+            不購買</label>
+          <label>
+            <input name="RadioGroup2" type="radio" id="RadioGroup2_2" value="選項按鈕" checked="checked" />
+            考慮中</label>
+        </p></td>
+      </tr>
+    </table>
+    <p>
+      <input name="送出" type="submit" id="送出" onclick="MM_popupMsg('流行皮件選購確認：\r\r')" value="送出" />
+      <input type="reset" name="重置" id="重置" value="重置" />
+    </p>
+  </div>
+</form>
+</body>
+</html>
